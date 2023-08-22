@@ -26,6 +26,8 @@
   .r-s {
     display: flex;
     justify-content: center;
+  }.txt{
+    padding-top: 1rem;
   }
 }
 
@@ -54,3 +56,18 @@
   height: auto;
  border-radius: 10px;
 }
+.txt{
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  color: #557430;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+.txt:hover{
+border: 1px  red;
+color: #86BC42 ;
+text-decoration: none;
+
+}
+

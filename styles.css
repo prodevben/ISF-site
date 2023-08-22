@@ -30,6 +30,10 @@
   }.txt{
     padding-top: 1rem;
   }
+  *:focus {
+    outline: none;
+}
+
 }
 
 .dropdown {

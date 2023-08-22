@@ -26,6 +26,7 @@
   .r-s {
     display: flex;
     justify-content: center;
+        padding-top: 1rem;
   }.txt{
     padding-top: 1rem;
   }

@@ -95,9 +95,11 @@
 @keyframes fadein{
   from{
     opacity: 0;
+ 
   }
   to{
     opacity: 1;
+
   }
 }
 
@@ -113,26 +115,26 @@
 .txt{
   transition: all 0.2s ease-out;
   text-decoration: none;
-  color: #557430;
+  color: #739200;
   margin-left: 1rem;
   margin-right: 1rem;
 
 }
 .txt:hover{
 border: 1px  red;
-color: #86BC42 ;
+color: #AECF39 ;
 text-decoration: none;
 
 }
 
-.auto-menu{
+.auto-menu-out{
   width: 280px;
   height: 60px;
   border-radius: 0 0 15px 15px;
   margin-right: 1em;
   float: right;
   animation: gradient 10s ease infinite forwards;
-  background: linear-gradient(to top left,rgb(115, 187, 255), #aed683,rgb(255, 212, 137));
+  background: linear-gradient(to top left,#1259ff, #AECF39,#FA931C);
   background-size: 400% 400%;
 overflow: hidden; 
     box-shadow: 0 0 10px rgb(187, 187, 187);
@@ -141,17 +143,17 @@ overflow: hidden;
 @keyframes jumpDown{
   from{
     opacity: 0;
-    padding-top: 0em;
+    
   }
   to{
     opacity: 1; 
-    padding-top: 4.5em;
+
    
   }
  
 }
 
-.am{
+.am-out{
   animation: jumpDown 2s ease-out 3s forwards;
 }
 
@@ -200,4 +202,45 @@ overflow: hidden;
 .txt1:hover{
 color: rgb(216, 216, 216);
 text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .am-out{
+    display: none;
+  }
+  .am-in{
+    display: block;
+  } .cs{
+    padding-top: 4.6em;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .am-out{
+    display: block;
+  }
+  .am-in{
+    display: none;
+  }
+ 
+}
+
+.auto-menu-in{
+  width: 280px;
+  height: 60px;
+  animation: gradient 10s ease infinite forwards;
+  border-radius: 15px;
+  margin-top: -10px;
+  background: linear-gradient(to top left,#1259ff, #AECF39,#FA931C);
+  background-size: 400% 400%;
+overflow: hidden; 
+    box-shadow: 0 0 10px rgb(187, 187, 187);
+ margin: auto;
+    
+}
+
+.abt-img{
+  border-radius: 20px;
+  box-shadow: 0 0 10px #AECF39 ;
 }

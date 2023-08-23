@@ -244,3 +244,23 @@ overflow: hidden;
   border-radius: 20px;
   box-shadow: 0 0 10px #AECF39 ;
 }
+
+.cpsBTN{
+  background-color:#0246e5;
+  text-decoration: none;
+border-radius: 5px;
+border: none;
+width: 200px;
+height: 40px;
+box-shadow: 0 0 10px #5a8cff;
+margin-top: 15px;
+}
+.txtCPS{
+color: white;
+transition: all 0.2s ease-out;
+text-decoration: none;
+}
+.txtCPS:hover{
+  color: rgb(189, 189, 189);
+  text-decoration: none;
+}

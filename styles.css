@@ -344,7 +344,7 @@ text-align: center;
 }
 
 .mainBG{
-  background: linear-gradient(to bottom left,#a8c931,#e6ff8b);
+  background: linear-gradient(to bottom left,#AECF39,#c9e26f,#86a02a);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
 }

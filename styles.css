@@ -131,7 +131,7 @@ text-decoration: none;
   width: 280px;
   height: 60px;
   border-radius: 0 0 15px 15px;
-  margin-right: 1em;
+margin-right: 1em;
   animation: gradient 10s ease infinite forwards;
   background: linear-gradient(to top left,#1259ff, #AECF39,#FA931C);
   background-size: 400% 400%;
@@ -141,6 +141,7 @@ overflow: hidden;
 .am-out{
   right: 0;
 }
+
 @keyframes jumpDown{
   from{
     opacity: 0;
@@ -203,6 +204,7 @@ overflow: hidden;
 .txt1:hover{
 color: rgb(216, 216, 216);
 text-decoration: none;
+
 }
 
 @media (max-width: 768px) {
@@ -245,6 +247,7 @@ overflow: hidden;
   border-radius: 20px;
   box-shadow: 0 0 10px #AECF39 ;
 }
+
 .cpsBTN{
   background-color:#0246e5;
   text-decoration: none;
@@ -254,7 +257,6 @@ width: 200px;
 height: 40px;
 box-shadow: 0 0 10px #5a8cff;
 margin-top: 15px;
-
 }
 .txtCPS{
 color: white;
@@ -264,6 +266,43 @@ text-decoration: none;
 .txtCPS:hover{
   color: rgb(189, 189, 189);
   text-decoration: none;
+}
+.cpsBTN:focus {
+    outline: none;
+  }
+
+   .mv-vid{
+padding-top: 4.6rem;
+  }
+
+.S-M{
+  PADDING-top: 5EM;
+}
+.txtM{
+  color: #819830;
+  transition: a;
+}
+.txtM:hover{
+  color: rgb(177, 177, 177);
+}
+
+.bxBTN5 {
+  background-color:rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  height: 40px;
+  color: white;
+  animation: imp2 1.5s ease infinite ;
+}
+@media (max-width:768px) {
+  .MV{
+text-align: center;
+  }
+  .bxBTN5{
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .cpsBTN:focus{
   outline: none;

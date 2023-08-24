@@ -362,3 +362,8 @@ text-align: center;
       background-position: 0% 50%;
   }
 }
+@media (max-width: 768px){
+  .bigTxt{
+    margin-top: 25rem;
+  }
+}

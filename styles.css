@@ -132,14 +132,15 @@ text-decoration: none;
   height: 60px;
   border-radius: 0 0 15px 15px;
   margin-right: 1em;
- right:0;
   animation: gradient 10s ease infinite forwards;
   background: linear-gradient(to top left,#1259ff, #AECF39,#FA931C);
   background-size: 400% 400%;
 overflow: hidden; 
     box-shadow: 0 0 10px rgb(187, 187, 187);
 }
-
+.am-out{
+  right: 0;
+}
 @keyframes jumpDown{
   from{
     opacity: 0;

@@ -1,0 +1,9 @@
+@media (max-width: 768px){
+    .contAct{
+        margin: 2rem;
+      
+    }
+  }
+.outlineNone:focus{
+    outline: none;
+}

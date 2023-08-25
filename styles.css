@@ -280,7 +280,7 @@ padding-top: 4.6rem;
 }
 .txtM{
   color: #819830;
-  transition: a;
+  transition: all 0.2s ease-out;
 }
 .txtM:hover{
   color: rgb(177, 177, 177);
@@ -328,30 +328,39 @@ text-align: center;
   border-radius: 20px;
   box-shadow: 0 0 10px #FA931C ;
 }
-@media (max-width: 768px){
-  .adm-img{
-    margin-top: 10rem;
-  }
-}
+
 
   .facTxt{
     text-align: center;
   }
 
-@media (max-width: 768px){
-  .abt-Txt{
-    text-align: justify;
-    text-justify: inter-word;
-  }
-}
-@media (max-width: 768px){
-  .bigTxt{
-    margin-top: 25rem;
-  }
-}
+
 .footerBg{
-  background: linear-gradient(to top left,#1259ff, #AECF39,#FA931C);
-  animation: gradient 10s ease-out;
+  background: linear-gradient(to top left,#c5d7ff, #f0ffbc,#ffe7cc);
+  animation: gradient 10s ease-out infinite;
   background-size: 400% 400%;
-  margin-top: 2rem;
+border-radius:  50px 50px 0 0;
+margin-top: 3em;
 }
+.hrPro{
+  width: 98%;
+  box-shadow:0 0 10px #FA931C;
+   border-color:rgba(255, 0, 0, 0);
+   background-color: #FA931C;
+}
+.txt5{
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  color: #4e6300;
+
+}
+.txt5:hover{
+text-decoration: none;
+opacity: 0.7;
+}
+.opLow{
+  transition: all 0.2s ease-out;
+}
+.opLow:hover{
+  filter: opacity(0.6);
+  }

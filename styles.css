@@ -349,3 +349,9 @@ text-align: center;
     margin-top: 25rem;
   }
 }
+.footerBg{
+  background: linear-gradient(to top left,#1259ff, #AECF39,#FA931C);
+  animation: gradient 10s ease-out;
+  background-size: 400% 400%;
+  margin-top: 2rem;
+}

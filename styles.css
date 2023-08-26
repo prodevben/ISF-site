@@ -336,7 +336,7 @@ text-align: center;
 
 
 .footerBg{
-  background: linear-gradient(to top left,#c5d7ff, #f0ffbc,#ffe7cc);
+  background: linear-gradient(to top left,#b9cfff, #ebfab2,#ffe2c1);
   animation: gradient 10s ease-out infinite;
   background-size: 400% 400%;
 border-radius:  20px 20px 0 0;
@@ -364,4 +364,15 @@ opacity: 0.7;
 .opLow:hover{
   filter: opacity(0.6);
   }
+  
+.mainBG{
+  background: linear-gradient(to top left,#AECF39, #abc93e,#a9cb2f);
+  animation: gradient 10s ease-out infinite;
+  background-size: 400% 400%;
+}
+.mainBG2{
+  background: linear-gradient(to top left,#ffa238, #e38017,#fab937);
+  animation: gradient 10s ease-out infinite;
+  background-size: 400% 400%;
+}
   

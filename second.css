@@ -36,3 +36,15 @@
 section{
   overflow:hidden;
 }
+.pgSH{
+  box-shadow: 0 0 10px #AECF39;
+   border-radius: 30px; 
+   background: linear-gradient(to bottom, #99c300,#adbd72);
+}
+
+.imgSH{
+  box-shadow: 0 0 10px #AECF39;
+   background: linear-gradient(to bottom, #99c300,#adbd72);
+   border-radius: 1em;
+}
+

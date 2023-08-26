@@ -1,9 +1,35 @@
-@media (max-width: 768px){
-    .contAct{
-        margin: 2rem;
-      
-    }
-  }
+
 .outlineNone:focus{
-    outline: none;
+  outline: none;
+}
+@media (max-width:768px){
+ .newFUNC1{
+  text-align: center;
+}   .newFUNC2{
+   text-align: center;
+ }     .newFUNC3{
+     text-align: center;
+   }   .cA{
+      text-align: center;
+    }
+}
+@media (min-width:768px){
+  .newFUNC1{
+   text-align: start;
+ }    .newFUNC2{
+    text-align: center;
+  }     .newFUNC3{
+      text-align: end;
+    }  .cT{
+    padding-top: 3em;
+    }
+ }
+
+     
+.faqMenu{
+  justify-content: center;
+  border: 1px solid #53a6ff;
+  box-shadow:0 0 10px #53a6ff ;
+  border-radius: 20px;
+  background-color: #ffffff;
 }

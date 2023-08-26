@@ -339,7 +339,7 @@ text-align: center;
   background: linear-gradient(to top left,#c5d7ff, #f0ffbc,#ffe7cc);
   animation: gradient 10s ease-out infinite;
   background-size: 400% 400%;
-border-radius:  50px 50px 0 0;
+border-radius:  20px 20px 0 0;
 margin-top: 3em;
 }
 .hrPro{

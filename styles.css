@@ -376,3 +376,8 @@ opacity: 0.7;
   background-size: 400% 400%;
 }
   
+.mainBG3{
+  background: linear-gradient(to top left,#3366dc, #24438C ,#2296e9);
+  animation: gradient 10s ease-out infinite;
+  background-size: 400% 400%;
+}

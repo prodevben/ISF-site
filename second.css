@@ -47,4 +47,15 @@ section{
    background: linear-gradient(to bottom, #99c300,#adbd72);
    border-radius: 1em;
 }
+  .cdhvr:hover{
+    filter: brightness(90%);
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+  }
+  .cdhvr{
+    filter: brightness(100%);
+  }
 

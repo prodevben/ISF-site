@@ -33,3 +33,6 @@
   border-radius: 20px;
   background-color: #ffffff;
 }
+section{
+  overflow:hidden;
+}

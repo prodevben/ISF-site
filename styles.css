@@ -37,8 +37,6 @@
   border: none;
   width: 100px;
   height: 40px;
-  float: right;
-  margin-left: 20px;
   margin-top: 12px;
   color: white;
   animation: imp 1.5s ease infinite ;
@@ -128,7 +126,7 @@ text-decoration: none;
 }
 
 .auto-menu-out{
-  width: 280px;
+  width: 12em;
   height: 60px;
   border-radius: 0 0 15px 15px;
 margin-right: 1em;
@@ -230,7 +228,7 @@ text-decoration: none;
 }
 
 .auto-menu-in{
-  width: 280px;
+  width: 12em;
   height: 60px;
   animation: gradient 10s ease infinite forwards;
   border-radius: 15px;
@@ -281,7 +279,7 @@ padding-top: 4.6rem;
 .txtM{
   color: #819830;
   transition: all 0.2s ease-out;
-    font-size: 1em;
+  font-size: 1em;
 }
 .txtM:hover{
   color: rgb(177, 177, 177);
@@ -291,7 +289,6 @@ padding-top: 4.6rem;
   background-color:rgb(255, 255, 255);
   border-radius: 10px;
   border: none;
-  width: auto;
   height: 40px;
   color: white;
   animation: imp2 1.5s ease infinite ;
@@ -367,7 +364,7 @@ opacity: 0.7;
   }
   
 .mainBG{
-  background: linear-gradient(to top left,#AECF39, #abc93e,#a9cb2f);
+  background: linear-gradient(to top left,#AECF39, #9db93a,#a9cb2f);
   animation: gradient 10s ease-out infinite;
   background-size: 400% 400%;
 }
@@ -376,9 +373,25 @@ opacity: 0.7;
   animation: gradient 10s ease-out infinite;
   background-size: 400% 400%;
 }
-  
 .mainBG3{
   background: linear-gradient(to top left,#3366dc, #24438C ,#2296e9);
   animation: gradient 10s ease-out infinite;
   background-size: 400% 400%;
+}
+.mainBG4{
+  background: linear-gradient(to top left,#ff4a4a, #bf2a2a ,#ff1221);
+  animation: gradient 10s ease-out infinite;
+  background-size: 400% 400%;
+}
+.mainBG5{
+  background: linear-gradient(to top left,#ffcd37, #e7bd00 ,#ffda21);
+  animation: gradient 10s ease-out infinite;
+  background-size: 400% 400%;
+}
+
+
+@media (max-width: 768px) {
+  .cs{
+    padding-top: 4.6em;
+  }
 }

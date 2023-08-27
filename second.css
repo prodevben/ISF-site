@@ -11,6 +11,8 @@
      text-align: center;
    }   .cA{
       text-align: center;
+    }  .Mv{
+      padding-top: 3em;
     }
 }
 @media (min-width:768px){
@@ -23,6 +25,7 @@
     }  .cT{
     padding-top: 3em;
     }
+
  }
 
      
@@ -34,8 +37,9 @@
   background-color: #ffffff;
 }
 section{
-  overflow:hidden;
+  overflow: hidden;
 }
+
 .pgSH{
   box-shadow: 0 0 10px #AECF39;
    border-radius: 30px; 
@@ -47,15 +51,15 @@ section{
    background: linear-gradient(to bottom, #99c300,#adbd72);
    border-radius: 1em;
 }
-  .cdhvr:hover{
-    filter: brightness(90%);
-    -webkit-transition: all 0.1s ease;
-    -moz-transition: all 0.1s ease;
-    -o-transition: all 0.1s ease;
-    -ms-transition: all 0.1s ease;
-    transition: all 0.1s ease;
-  }
-  .cdhvr{
-    filter: brightness(100%);
-  }
 
+.imgSH {
+  margin-bottom: 20px;
+  text-align: center; 
+  transition: all 0.3s ease-in-out;
+}
+
+.imgSH:hover {
+  transform: scale(1.05);
+ filter: brightness(0.5);
+ 
+}

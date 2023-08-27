@@ -364,7 +364,7 @@ opacity: 0.7;
   }
   
 .mainBG{
-  background: linear-gradient(to top left,#AECF39, #9db93a,#a9cb2f);
+  background: linear-gradient(to top left,#3366dc, #24438C ,#2296e9);
   animation: gradient 10s ease-out infinite;
   background-size: 400% 400%;
 }
@@ -374,7 +374,7 @@ opacity: 0.7;
   background-size: 400% 400%;
 }
 .mainBG3{
-  background: linear-gradient(to top left,#3366dc, #24438C ,#2296e9);
+  background: linear-gradient(to top left,#ffcd37, #e7bd00 ,#ffda21);
   animation: gradient 10s ease-out infinite;
   background-size: 400% 400%;
 }
@@ -384,7 +384,7 @@ opacity: 0.7;
   background-size: 400% 400%;
 }
 .mainBG5{
-  background: linear-gradient(to top left,#ffcd37, #e7bd00 ,#ffda21);
+  background: linear-gradient(to top left,#AECF39, #9db93a,#a9cb2f);
   animation: gradient 10s ease-out infinite;
   background-size: 400% 400%;
 }

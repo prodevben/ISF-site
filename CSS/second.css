@@ -1,0 +1,76 @@
+
+.outlineNone:focus{
+  outline: none;
+}
+@media (max-width:768px){
+ .newFUNC{
+  text-align: center;
+}    .newFUNC2{
+     text-align: center;
+   }   .cA{
+      text-align: center;
+    }  .Mv{
+      padding-top: 3em;
+    }
+}
+@media (min-width:768px){
+  .newFUNC{
+   text-align: start;
+ }     .newFUNC2{
+      text-align: end;
+    }  .cT{
+    padding-top: 3em;
+    }
+
+ }
+
+     
+.faqMenu{
+  justify-content: center;
+  border: 1px solid #53a6ff;
+  box-shadow:0 0 10px #53a6ff ;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+section{
+  overflow: hidden;
+}
+
+.pgSH{
+  box-shadow: 0 0 10px #63afff;
+   border-radius: 30px; 
+   background: linear-gradient(to left, #194ba2,#63afff);
+}
+
+.imgSH{
+  box-shadow: 0 0 10px #63afff;
+   background: linear-gradient(to bottom, #194ba2,#63afff);
+   border-radius: 1em;
+}
+.imgSH {
+  margin-bottom: 20px;
+  text-align: center; 
+  transition: all 0.3s ease-in-out;
+}
+
+.imgSH:hover {
+  transform: scale(1.05);
+ filter: brightness(0.5);
+ 
+}
+
+
+.bgBX{
+  box-shadow: 0 0 10px #194ba2;
+  background-color: #aad3ff;
+ 
+}
+
+.cdhvr {
+  -webkit-filter: brightness(100%); 
+  transition: all 0.2s ease-out;
+}
+
+.cdhvr:hover {
+  -webkit-filter: brightness(85%);
+}

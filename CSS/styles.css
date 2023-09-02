@@ -1,0 +1,403 @@
+@media (min-width: 768px) {
+  .bx-hero {
+    display: flex;
+    justify-content: end;
+  }
+}
+@media (max-width: 768px) {
+.txt{
+   padding-top: 1em;
+  }
+}
+  
+
+.imp-1 {
+  margin-top: 10px;
+}
+
+.logo-img {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.bxBtn {
+  background-color: orange;
+  border-radius: 10px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-right: 8px;
+  margin-top: 12px;
+  
+}
+.bxBTN {
+  background-color: rgb(255, 0, 0);
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin-top: 12px;
+  color: white;
+  animation: imp 1.5s ease infinite ;
+}
+ 
+@keyframes imp{
+  0%{
+   
+    background-color: rgb(223, 0, 0);
+    box-shadow: 0 0 rgba(0, 0, 0, 0);
+  }
+  50%{
+    opacity: 1;
+        background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 8px red;
+  }
+  100%{
+   
+    background-color: rgb(223, 0, 0);
+    box-shadow: 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+
+@media (max-width: 768px) {
+  }
+  *:focus {
+    outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #88b4ff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  margin-top: 25px;
+  animation-name: fadein;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes fadein{
+  from{
+    opacity: 0;
+ 
+  }
+  to{
+    opacity: 1;
+
+  }
+}
+
+.show-content {
+  display: block;
+}
+
+.hv-cn:hover{
+  width: 100%;
+  height: auto;
+ border-radius: 10px;
+}
+.txt{
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  color: #194ba2;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+.txt:hover{
+border: 1px  red;
+color: #88b4ff ;
+text-decoration: none;
+
+}
+
+.auto-menu-out{
+  width: 12em;
+  height: 60px;
+  border-radius: 0 0 15px 15px;
+margin-right: 1em;
+  animation: gradient 10s ease infinite forwards;
+  background: linear-gradient(to top left,#dcffcf,#84b1ff,rgb(198, 213, 255));  background-size: 400% 400%;
+overflow: hidden; 
+    box-shadow: 0 0 10px rgb(187, 187, 187);
+}
+.am-out{
+  right: 0;
+}
+
+@keyframes jumpDown{
+  from{
+    opacity: 0;
+    
+  }
+  to{
+    opacity: 1; 
+
+   
+  }
+ 
+}
+
+.am-out{
+  animation: jumpDown 2s ease-out 3s forwards;
+}
+
+
+@keyframes gradient {
+  0% {
+
+      background-position: 0% 50%;
+  }
+  50% {
+ 
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%; 
+ 
+  }
+}
+
+.bxBTN1 {
+  background-color:rgb(255, 153, 0);
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  height: 40px;
+  float: left;
+ margin-left: 10px;
+  margin-top: 12px;
+  color: white;
+  animation: imp2 1.5s ease infinite ;
+}
+
+.hv-cn1:hover{
+  width: 100%;
+  height: auto;
+ border-radius: 10px;
+}
+.txt1{
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+.txt1:hover{
+color: rgb(216, 216, 216);
+text-decoration: none;
+
+}
+
+@media (max-width: 768px) {
+  .am-out{
+    display: none;
+  }
+  .am-in{
+    display: block;
+  } .cs{
+    padding-top: 4.6em;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .am-out{
+    display: block;
+  }
+  .am-in{
+    display: none;
+  }
+ 
+}
+
+.auto-menu-in{
+  width: 12em;
+  height: 60px;
+  animation: gradient 10s ease infinite forwards;
+  border-radius: 15px;
+  margin-top: -10px;
+  background: linear-gradient(to top left,#dcffcf,#84b1ff,rgb(198, 213, 255));
+    background-size: 400% 400%;
+overflow: hidden; 
+    box-shadow: 0 0 10px rgb(187, 187, 187);
+ margin: auto;
+    
+}
+
+.abt-img{
+  border-radius: 20px;
+  box-shadow: 0 0 10px #24438C ;
+}
+
+.cpsBTN{
+  background-color:#194ba2;
+  text-decoration: none;
+border-radius: 5px;
+border: none;
+width: 200px;
+height: 40px;
+box-shadow: 0 0 10px #5a8cff;
+margin-top: 15px;
+}
+.txtCPS{
+color: white;
+transition: all 0.2s ease-out;
+text-decoration: none;
+}
+.txtCPS:hover{
+  color: rgb(189, 189, 189);
+  text-decoration: none;
+}
+.cpsBTN:focus {
+    outline: none;
+  }
+
+   .mv-vid{
+padding-top: 4.6rem;
+  }
+
+.S-M{
+  PADDING-top: 5EM;
+}
+.txtM{
+  color: #194ba2;
+  transition: all 0.2s ease-out;
+  font-size: 1em;
+}
+.txtM:hover{
+  color: #88b4ff;
+}
+
+.bxBTN5 {
+  background-color:rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  color: white;
+  animation: imp2 1.5s ease infinite ;
+}
+@media (max-width:768px) {
+  .MV{
+text-align: center;
+  }
+  .bxBTN5{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.cpsBTN:focus{
+  outline: none;
+}
+.mainImg{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+}
+@media (max-width: 768px){
+  .mainTxt{
+    padding-top: 0rem;
+    text-align: center;
+  }
+}
+@media (max-width: 768px){
+  .mainPara{
+    justify-content: center;
+  }
+}
+.adm-img{
+  border-radius: 20px;
+  box-shadow: 0 0 10px #24438C ;
+}
+
+
+  .facTxt{
+    text-align: center;
+  }
+
+
+.footerBg{
+  background: linear-gradient(to top left,#dcffcf,#93c4ff,rgb(255, 241, 198));
+  animation: gradient 10s ease-out infinite;
+  background-size: 400% 400%;
+border-radius:  20px 20px 0 0;
+margin-top: 3em;
+}
+.hrPro{
+  width: 50%;
+  background-color: #24438C;
+   box-shadow: 0 0 10px #004cff;
+}
+.txt5{
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  color: #002d7c;
+
+}
+.txt5:hover{
+text-decoration: none;
+opacity: 0.7;
+}
+.opLow{
+  transition: all 0.2s ease-out;
+}
+.opLow:hover{
+  filter: opacity(0.6);
+  }
+  
+.mainBG{
+  background: linear-gradient(to top left,#a4cdef, #3a6db9,#2b69aa);
+  animation: gradient 10s ease-out infinite;
+  background-size: 400% 400%;
+}
+.mainBG1{
+  background: linear-gradient(to top left,#c1e3ff, #afcfff,#7898bc);
+  animation: gradient 10s ease-out infinite;
+  background-size: 400% 400%;
+}
+.mainBG2{
+  background: linear-gradient(to top left,#d0ffd6, #a5e7a9,#afcba0);
+  animation: gradient 10s ease-out infinite;
+  background-size: 400% 400%;
+}
+.mainBG3{
+  background: linear-gradient(to top left,#ffc1c1, #ffaaaa,#975c5c);
+    animation: gradient 10s ease-out infinite;
+  background-size: 400% 400%;
+}
+.mainBG4{
+  background: linear-gradient(to top left,#fff5c1, #ffe7aa,#eaca81);
+    animation: gradient 10s ease-out infinite;
+  background-size: 400% 400%;
+}
+
+
+@media (max-width: 768px) {
+  .cs{
+    padding-top: 4.6em;
+  }
+}
+
+.bxMid{
+  background: linear-gradient(to top left,#a4cdef, #3a6db9,#2b69aa);
+  animation: gradient 10s ease-out infinite;
+  background-size: 400% 400%;
+  border-radius: 1em;
+
+}

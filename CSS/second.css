@@ -74,3 +74,14 @@ section{
 .cdhvr:hover {
   -webkit-filter: brightness(85%);
 }
+  @media (min-width:768px){
+    .espot{
+      margin-left: 0.5em!important;
+      justify-content: left;
+    }
+  }
+  @media (max-width:768px){
+    .espot{
+      justify-content: center;
+    }
+ }

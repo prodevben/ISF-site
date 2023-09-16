@@ -133,7 +133,7 @@ margin-right: 1em;
   animation: gradient 10s ease infinite forwards;
   background: linear-gradient(to top left,#dcffcf,#84b1ff,rgb(198, 213, 255));  background-size: 400% 400%;
 overflow: hidden; 
-    box-shadow: 0 0 10px rgb(187, 187, 187);
+
 }
 .am-out{
   right: 0;

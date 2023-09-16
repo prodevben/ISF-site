@@ -37,7 +37,7 @@ section{
 }
 
 .pgSH{
-  box-shadow: 0 0 10px #63afff;
+
    border-radius: 30px; 
    background: linear-gradient(to left, #194ba2,#63afff);
 }
@@ -80,7 +80,7 @@ section{
       justify-content: left;
     } 
     .mlEffect{
-      background-image: linear-gradient(to right,rgba(255, 0, 0, 0), rgba(255, 0, 0, 0), rgba(255, 0, 0, 0), #7dbcff8a);
+      background-image: linear-gradient(to right,rgb(175 230 255 / 3%),#7dbcff33, #7dbcff8a, #62aeffa8, #007cffb8);
      }
   }
   @media (max-width:768px){
@@ -88,7 +88,7 @@ section{
       justify-content: center;
     }
     .mlEffect{
-      background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0), rgba(255, 0, 0, 0), #7dbcff8a);
+      background-image: linear-gradient(to bottom,rgb(175 230 255 / 3%),#7dbcff33, #7dbcff8a, #62aeffa8, #007cffb8);
       border-radius: 1em;
      }
  }

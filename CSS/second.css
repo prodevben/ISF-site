@@ -80,7 +80,7 @@ section{
       justify-content: left;
     } 
     .mlEffect{
-      background-image: linear-gradient(to right,rgb(175 230 255 / 3%),#7dbcff33, #7dbcff8a, #62aeffa8, #007cffb8);
+      background-image: linear-gradient(to right,rgb(175 230 255 / 3%),white, #62aeffa8, #007cffb8);
      }
   }
   @media (max-width:768px){

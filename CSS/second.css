@@ -103,3 +103,27 @@ section{
  }
 
 
+
+
+@media (max-width:768px){
+.imgSize{
+  width: 9em; height: 6em;
+}
+}
+@media (min-width:768px){
+  .imgSize{
+    width: 21em;
+    height: 14em;
+    }  }
+  
+    @media (max-width:768px){
+      .imgSize2{
+        width: 9em; height: 10em;
+      }
+      }
+      @media (min-width:768px){
+        .imgSize2{
+          width: 21em;
+          height: auto;
+          }  }
+        
